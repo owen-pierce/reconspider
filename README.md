@@ -132,7 +132,7 @@ Step 1 - Cloning ReconSpider on your linux system.
 
 In order to download ReconSpider simply clone the github repository. Below is the command which you can use in order to clone ReconSpider repository.
 ```
-git clone https://github.com/bhavsec/reconspider.git
+git clone https://github.com/owen-pierce/reconspider.git
 ```
 
 Step 2 - Make sure python3 and python3-pip is installed on your system.
@@ -148,7 +148,7 @@ Step 3 - Installing all dependencies.
 Once you clone and check python installation, you will find directory name as **reconspider**. Just go to that directory and install using these commands:
 ```
 cd reconspider
-sudo python3 setup.py install
+pip3 install -r requirements.txt
 ```
 
 Step 4 - Setting up the Database.
